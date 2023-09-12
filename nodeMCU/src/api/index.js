@@ -1,12 +1,12 @@
 import axios from 'axios';
 
-function getDataList() {
-	const response = axios.get('/src/api/data.json');
+function getDataList(url) {
+	const response = axios.get(`${url}/src/api/data.json`);
 	return response;
 }
 
-async function getDataById(id) {
-	const { data } = await getDataList();
+async function getDataById(id, url) {
+	const { data } = await getDataList(url);
 	return data.find(item => item.id === id);
 }
 

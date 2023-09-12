@@ -18,10 +18,15 @@ import VideoCard from '@/components/video/VideoCard.vue';
 import { getDataList } from '@/api/index.js';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
+
+// --------------------------------------------------------------------
+const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
+const URL = `${PROXY}/api/data.json`;
+// --------------------------------------------------------------------
 const lists = ref({});
 
 const fetchedList = async () => {
-	const { data } = await getDataList();
+	const { data } = await getDataList(URL);
 	try {
 		lists.value = data;
 		console.log(data);
