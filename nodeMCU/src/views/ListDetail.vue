@@ -1,4 +1,5 @@
 <template>
+	<!-- 디테일 페이지 -->
 	<section>
 		<article class="flex-box">
 			<video :src="list.video" controls muted></video>
