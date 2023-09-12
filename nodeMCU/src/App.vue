@@ -1,5 +1,8 @@
 <template>
-	<div><router-view></router-view></div>
+	<div>
+		1231
+		<router-view></router-view>
+	</div>
 </template>
 
 <script setup></script>

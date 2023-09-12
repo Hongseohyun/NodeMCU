@@ -91,4 +91,7 @@ mark {
 	font-size: 1.5rem;
 	margin: 5rem 0 5rem 0;
 }
+#code-view-title:hover {
+	text-decoration: underline;
+}
 </style>
