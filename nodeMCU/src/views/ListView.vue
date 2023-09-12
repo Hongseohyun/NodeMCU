@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<section id="card-warp">
+			{{ lists }}
 			<VideoCard
 				v-for="list in lists"
 				:key="list.id"

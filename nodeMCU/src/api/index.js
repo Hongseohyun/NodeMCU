@@ -1,12 +1,17 @@
 import axios from 'axios';
 
-function getDataList(url) {
-	const response = axios.get(url);
+// --------------------------------------------------------------------
+const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
+const URL = `${PROXY}/src/api/data.json`;
+// --------------------------------------------------------------------
+
+function getDataList() {
+	const response = axios.get(URL);
 	return response;
 }
 
-async function getDataById(id, url) {
-	const { data } = await getDataList(url);
+async function getDataById(id) {
+	const { data } = await getDataList(URL);
 	return data.find(item => item.id === id);
 }
 
