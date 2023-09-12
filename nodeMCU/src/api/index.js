@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 function getDataList(url) {
-	const response = axios.get(`${url}/src/api/data.json`);
+	const response = axios.get(url);
 	return response;
 }
 

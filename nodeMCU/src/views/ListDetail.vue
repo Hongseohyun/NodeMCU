@@ -29,12 +29,15 @@
 import { useRoute } from 'vue-router';
 import { ref } from 'vue';
 import { getDataById } from '@/api/index.js';
-
+// --------------------------------------------------------------------
+const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
+const URL = `${PROXY}/src/api/data.json`;
+// --------------------------------------------------------------------
 const list = ref({});
 const route = useRoute();
 
 const fetchedList = async () => {
-	const data = await getDataById(parseInt(route.params.id));
+	const data = await getDataById(parseInt(route.params.id), URL);
 	list.value = data;
 };
 fetchedList();

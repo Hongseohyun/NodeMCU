@@ -21,7 +21,7 @@ import { useRouter } from 'vue-router';
 
 // --------------------------------------------------------------------
 const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
-const URL = `${PROXY}/api/data.json`;
+const URL = `${PROXY}/src/api/data.json`;
 // --------------------------------------------------------------------
 const lists = ref({});
 
