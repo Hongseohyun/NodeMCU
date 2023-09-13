@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<section id="card-warp">
-			{{ lists }}
+			list : {{ lists }}
 			<VideoCard
 				v-for="list in lists"
 				:key="list.id"
@@ -20,10 +20,6 @@ import { getDataList } from '@/api/index.js';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
-// --------------------------------------------------------------------
-const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
-const URL = `${PROXY}/src/api/data.json`;
-// --------------------------------------------------------------------
 const lists = ref({});
 
 const fetchedList = async () => {
