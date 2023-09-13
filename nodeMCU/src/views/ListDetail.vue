@@ -28,7 +28,7 @@
 <script setup>
 import { useRoute } from 'vue-router';
 import { ref } from 'vue';
-import { getDataById } from '@/api/index.js';
+import { getDataById } from '/public/api/index.js';
 
 const list = ref({});
 const route = useRoute();
