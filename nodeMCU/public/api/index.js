@@ -1,15 +1,13 @@
 import axios from 'axios';
 
 // --------------------------------------------------------------------
-const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
-const URL = `${PROXY}/src/api/data.json`;
+// const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
+// const URL = `${PROXY}/src/api/data.json`;
 // --------------------------------------------------------------------
 
 function getDataList() {
 	try {
-		const response = axios.get(URL);
-		console.log(PROXY, URL);
-		console.log(URL);
+		const response = axios.get('/public/api/index.js');
 		return response;
 	} catch (err) {
 		alert(err);
