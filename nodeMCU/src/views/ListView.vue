@@ -15,7 +15,7 @@
 
 <script setup>
 import VideoCard from '@/components/video/VideoCard.vue';
-import { getDataList } from '@/api/index.js';
+import { getDataList } from '/public/api/index.js';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
@@ -25,7 +25,6 @@ const fetchedList = async () => {
 	const { data } = await getDataList(URL);
 	try {
 		lists.value = data;
-		console.log(data);
 	} catch (err) {
 		console.log(err);
 	}

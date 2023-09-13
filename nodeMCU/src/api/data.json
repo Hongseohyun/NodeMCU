@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "💡 가변저항을 이용한 LED 밝기 조절",
+    "date": "2023-09-11",
+    "discription": "MCU모듈에 쇼크가 발생해서 오징어 탄 냄새가 났다.<br>그리고 너무 뜨거워서 화상입을뻔 후엥",
+    "note": "",
+    "video": "/src/assets/video/analog_led.mov",
+    "image": [
+      "/src/assets/image/analogLed.jpg"
+    ]
+  },
+  {
+    "id": 0,
+    "title": "🚥 LED로 신호등 구현",
+    "date": "2023-09-11",
+    "discription": "잿슨나노를 사용하면서 LED 작동코드를 예습해서 수월하게 할 수 있었다.<br> 하나의 저항으로 3개의 LED를 켤 수 있어서 신기했음.<br> 1학년 1학기에 아두이노 스케치 코드도 함수를 사용했던게 기억나서 blick 코드를 함수를 사용하여 구현해보았다. 좀 허접한듯 ㅋㅋ",
+    "note": "",
+    "video": "/src/assets/video/blink_led.mov",
+    "image": [
+      "/src/assets/image/blinkLed.jpg"
+    ]
+  }
+]
