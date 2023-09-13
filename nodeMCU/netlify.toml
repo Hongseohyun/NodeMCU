@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/proxy/*"
-  to = "https://main--jade-palmier-313e6a.netlify.app//:splat"
+  to = "https://main--jade-palmier-313e6a.netlify.app/:splat"
   status = 200
   force = true
