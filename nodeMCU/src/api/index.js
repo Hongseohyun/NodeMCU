@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // --------------------------------------------------------------------
 const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
-const URL = `..${PROXY}/src/api/data.json`;
+const URL = `${PROXY}../src/api/data.json`;
 // --------------------------------------------------------------------
 
 function getDataList() {
@@ -10,7 +10,6 @@ function getDataList() {
 		const response = axios.get(URL);
 		console.log(PROXY, URL);
 		console.log(URL);
-		console.log('success');
 		return response;
 	} catch (err) {
 		alert(err);
