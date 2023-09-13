@@ -12,7 +12,7 @@
 				<div id="note">
 					<mark>✍🏻 NOTE</mark>
 					<p v-if="list.note" class="note">{{ list.note }}</p>
-					<p v-else class="note">콘턴츠가 없음.</p>
+					<p v-else class="note">콘텐츠츠가 없음.</p>
 				</div>
 			</div>
 		</article>

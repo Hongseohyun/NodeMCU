@@ -5,9 +5,9 @@
     "date": "2023-09-11",
     "discription": "MCU모듈에 쇼크가 발생해서 오징어 탄 냄새가 났다.<br>그리고 너무 뜨거워서 화상입을뻔 후엥",
     "note": "",
-    "video": "/public/video/analog_led.mov",
+    "video": "/video/analog_led.mov",
     "image": [
-      "/public/image/analogLed.jpg"
+      "/image/analogLed.jpg"
     ]
   },
   {
@@ -16,9 +16,9 @@
     "date": "2023-09-11",
     "discription": "잿슨나노를 사용하면서 LED 작동코드를 예습해서 수월하게 할 수 있었다.<br> 하나의 저항으로 3개의 LED를 켤 수 있어서 신기했음.<br> 1학년 1학기에 아두이노 스케치 코드도 함수를 사용했던게 기억나서 blick 코드를 함수를 사용하여 구현해보았다. 좀 허접한듯 ㅋㅋ",
     "note": "",
-    "video": "/public/video/blink_led.mov",
+    "video": "/video/blink_led.mov",
     "image": [
-      "/public/image/blinkLed.jpg"
+      "/image/blinkLed.jpg"
     ]
   }
 ]
