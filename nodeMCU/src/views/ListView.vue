@@ -21,7 +21,6 @@ import { useRouter } from 'vue-router';
 
 const lists = ref({});
 
-console.log(lists.value);
 const fetchedList = async () => {
 	const { data } = await getDataList(URL);
 	try {
