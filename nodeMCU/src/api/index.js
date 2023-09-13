@@ -7,6 +7,7 @@ const URL = `${PROXY}/api/data.json`;
 
 function getDataList() {
 	const response = axios.get(URL);
+	console.log(PROXY, URL);
 	return response;
 }
 
