@@ -24,7 +24,6 @@ const lists = ref({});
 
 const fetchedList = async () => {
 	const { data } = await getDataList(URL);
-	console.log(data);
 	try {
 		lists.value = data;
 		console.log(data);
