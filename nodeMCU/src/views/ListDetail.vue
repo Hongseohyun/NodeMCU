@@ -32,7 +32,7 @@ import { getDataById } from '/public/api/index.js';
 
 const list = ref({});
 const route = useRoute();
-
+console.log('detail view');
 const fetchedList = async () => {
 	const data = await getDataById(parseInt(route.params.id));
 	list.value = data;
