@@ -7,7 +7,7 @@ import axios from 'axios';
 
 function getDataList() {
 	try {
-		const response = axios.get('/public/api/index.js');
+		const response = axios.get('/public/api/data.json');
 		return response;
 	} catch (err) {
 		alert(err);
