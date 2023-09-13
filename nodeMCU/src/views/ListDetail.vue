@@ -36,7 +36,6 @@ const route = useRoute();
 const fetchedList = async () => {
 	const data = await getDataById(parseInt(route.params.id));
 	list.value = data;
-	console.log(data);
 };
 fetchedList();
 </script>
