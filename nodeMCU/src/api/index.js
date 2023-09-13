@@ -10,6 +10,7 @@ function getDataList() {
 		const response = axios.get(URL);
 		console.log(PROXY, URL);
 		console.log(URL);
+		console.log('success');
 		return response;
 	} catch (err) {
 		alert(err);
