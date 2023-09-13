@@ -6,13 +6,18 @@ const URL = `${PROXY}/src/api/data.json`;
 // --------------------------------------------------------------------
 
 function getDataList() {
-	const response = axios.get(URL);
-	console.log(PROXY, URL);
-	return response;
+	try {
+		const response = axios.get(URL);
+		console.log(PROXY, URL);
+		console.log(URL);
+		return response;
+	} catch (err) {
+		alert(err);
+	}
 }
 
 async function getDataById(id) {
-	const { data } = await getDataList(URL);
+	const { data } = await getDataList();
 	return data.find(item => item.id === id);
 }
 
