@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // --------------------------------------------------------------------
 const PROXY = window.location.hostname === 'localhost' ? '' : '/proxy';
-const URL = `${PROXY}/nodeMCU/src/api/data.json`;
+const URL = `..${PROXY}/src/api/data.json`;
 // --------------------------------------------------------------------
 
 function getDataList() {
