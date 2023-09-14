@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=NodeMCU%20와%20Firebase를%20활용한%20Coluding%20Computing%20📝&animation=twinkling&fontSize=23&fontAlignY=40&fontAlign=70&height=250&width=1325&align=center)
+![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=NodeMCU와%20Firebase를%20활용한%20Coluding%20Computing%20📝&animation=twinkling&fontSize=23&fontAlignY=40&fontAlign=70&height=250&width=1325&align=center)
 <br>
 <br>
 <br>
