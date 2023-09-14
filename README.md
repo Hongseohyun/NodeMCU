@@ -1,5 +1,6 @@
-# NodeMCU
-2학년 2학기 NodeMCU와 firebase를 활용한 클라우딩 컴퓨팅
+![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=NodeMCU%20와%20Firebase를%20활용한%20Coluding%20Computing%20Learning📝f&animation=twinkling&fontSize=23&fontAlignY=40&fontAlign=70&height=250&width=1325&align=center)
+<br>
+<br>
 <div align="center"">
 🔗 [Clouding Computing Learning 바로가기]
   
